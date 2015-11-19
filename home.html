@@ -1,95 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Student List</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <title>To Do List</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Student Table</h1>
+        <h1>To Do List</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <table class="table" id="studentTable">
+      <div class="col-md-8">
+        <table class="table" id="theList">
           <tr>
-            <th>First Name
+            <th class="col-md-1">&nbsp;
             </th>
-            <th>Last Name
+            <th>Tasks
             </th>
-            <th>Email
-            </th>
-            <th>Delete
+            <th class="col-md-1">Delete
             </th>
           </tr>
           <tr>
-            <td>Marge
+            <td><input type="checkbox">
             </td>
-            <td>Simpson
-            </td>
-            <td>Marge@fox.com
+            <td>My First Task: Mark this as done
             </td>
             <td><button class="btn btn-default btnDel">X</button>
             </td>
           </tr>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <h3>Add New Task</h3>
+        <table>
           <tr>
-            <td>Homer
+            <td>&nbsp;
             </td>
-            <td>Simpson
-            </td>
-            <td>Homer@fox.com
-            </td>
-            <td><button class="btn btn-default btnDel">X</button>
-            </td>
-          </tr>
-          <tr>
-            <td>Lisa
-            </td>
-            <td>Simpson
-            </td>
-            <td>Lisa@fox.com
-            </td>
-            <td><button class="btn btn-default btnDel">X</button>
-            </td>
-          </tr>
-          <tr>
-            <td>Bart
-            </td>
-            <td>Simpson
-            </td>
-            <td>bart@fox.com
-            </td>
-            <td><button class="btn btn-default btnDel">X</button>
-            </td>
-          </tr>
-          <tr>
-            <td>Maggie
-            </td>
-            <td>Simpson
-            </td>
-            <td>maggie@fox.com
-            </td>
-            <td><button class="btn btn-default btnDel">X</button>
-            </td>
-          </tr>
-          <tr>
-            <td>Abe
-            </td>
-            <td>Simpson
-            </td>
-            <td>abe@fox.com
-            </td>
-            <td><button class="btn btn-default btnDel">X</button>
-            </td>
-          </tr>
-          <tr>
-            <td><input type="text" class="form-control" id="exampleInputName1" placeholder="Jane">
-            </td>
-            <td><input type="text" class="form-control" id="exampleInputName2" placeholder=" Doe">
-            </td>
-            <td><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <td><input type="text" class="form-control" id="exampleInputName2" placeholder="My task">
             </td>
             <td><button class="btn btn-default" id="btnMake" >+</button>
             </td>

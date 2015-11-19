@@ -1,0 +1,23 @@
+.navbar-brand img {
+  height: 25px;
+}
+
+.btn-info {
+  margin-left: 10px;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+.strikeout:checked + span {
+  text-decoration: line-through;
+}
+.strikeout {
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+
+td span {
+  margin-left: 10px;
+}

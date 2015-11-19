@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To Do List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/name.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="https://evening-peak-8932.herokuapp.com/" target="_blank">Portfolio</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://evening-peak-8932.herokuapp.com/contact.html" target="_blank">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>To Do List</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table" id="theList">
+          <tr>
+            <th>Tasks
+            </th>
+            <th class="col-md-1">Delete
+            </th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" class="strikeout"><span>My First Task: Mark this as done</span>
+            </td>
+            <td><button class="btn btn-danger btnDel">X</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <h3>Add New Task</h3>
+        <table>
+          <tr>
+            <td>&nbsp;
+            </td>
+            <td><input type="text" class="form-control" id="newItem" placeholder="My task">
+            </td>
+            <td><button class="btn btn-info" id="btnMake" >+</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
