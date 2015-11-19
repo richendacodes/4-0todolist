@@ -1,3 +1,7 @@
+h1 {
+  margin-top: 100px;
+}
+
 .navbar-brand img {
   height: 25px;
 }
@@ -20,4 +24,11 @@
 
 td span {
   margin-left: 10px;
+}
+
+.footer {
+  background-color: white;
+  height: 40px;
+  padding-top: 10px;
+  text-align: right;
 }

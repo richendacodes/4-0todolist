@@ -38,7 +38,7 @@ $( document ).ready(function() {
     }
 
     $(".checkbox").change(function() {
-    if(this.checked) {
+    if(this.checked) {  
       $("span").addClass("strikeout");
     }
   });
