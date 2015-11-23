@@ -6,8 +6,14 @@ h1 {
   height: 25px;
 }
 
+#newItem {
+  width: 200px;
+  display: inline;
+}
+
 .btn-info {
   margin-left: 10px;
+  display: inline;
 }
 
 .checkbox {
@@ -16,6 +22,7 @@ h1 {
 
 .strikeout:checked + span {
   text-decoration: line-through;
+  color: #DDD;
 }
 .strikeout {
   text-decoration: line-through;
